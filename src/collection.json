@@ -4,6 +4,10 @@
     "demo-schematic": {
       "description": "A blank schematic.",
       "factory": "./demo-schematic/index#demoSchematic"
+    },
+    "hello-world": {
+      "description": "A hello world schematic.",
+      "factory": "./hello-world/index#helloWorldSchematic"
     }
   }
 }

@@ -1,10 +1,11 @@
 {
   "name": "@beeman/demo-schematic",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "A demo schematic",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "jasmine src/**/*_spec.js"
+    "test": "jasmine src/**/*_spec.js",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "schematics"
@@ -19,5 +20,12 @@
     "@types/node": "^8.0.31",
     "jasmine": "^3.3.1",
     "typescript": "~3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beeman/demo-schematic.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.18"
   }
 }

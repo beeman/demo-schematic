@@ -5,7 +5,7 @@ import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 // per file.
 export function helloWorldSchematic(_options: any): Rule {
   return (tree: Tree, _context: SchematicContext) => {
-    console.log('helloWorldSchematic')
+    console.log('helloWorldSchematic this is a test')
     return tree;
   };
 }
